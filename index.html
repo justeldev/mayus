@@ -143,22 +143,7 @@
     </div>
   </footer>
 
-  <script>
-    // Auto-update footer year
-    document.getElementById('year').textContent = new Date().getFullYear();
-</script>
-
- <script>   document.getElementById('read-more-bio').addEventListener('click', function(e) {
-      e.preventDefault();
-      document.getElementById('bio-synopsis').classList.add('hidden');
-      document.getElementById('bio-full').classList.remove('hidden');
-    });
-
-    document.getElementById('show-more-skills').addEventListener('click', function(e) {
-      e.preventDefault();
-      document.getElementById('hidden-skills').classList.remove('hidden');
-      this.classList.add('hidden');
-    });
-  </script>
+  <script src="js/main.js"></script>
+  <script src="js/footer-date.js"></script>
 </body>
 </html>

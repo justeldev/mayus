@@ -532,23 +532,7 @@
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-    // footer year
-    document.getElementById('year').textContent = new Date().getFullYear();
-
-    // Init featured reviews Swiper
-    const featured = new Swiper('.featured-swiper', {
-      slidesPerView: 1,
-      spaceBetween: 16,
-      loop: true,
-      autoplay: {
-        delay: 3500,
-        disableOnInteraction: false
-      },
-      breakpoints: {
-        768: { slidesPerView: 1.2 }
-      }
-    });
-  </script>
+      <script src="js/footer-date.js"></script>
+      <script src="js/reviews.js"></script>
 </body>
 </html>
